@@ -1,7 +1,8 @@
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
   my_car = Hash.new
-
+  my_car[color] = "gray"
+  my_car[year] = "2014"
 end
 
 
